@@ -9,10 +9,11 @@
 body,h1,h2,h3,h4,h5,h6
 {
     font-family: "Raleway",Arial, Helvetica, sans-serif;
+
 }
 .bdy
 {
-    color: lightgrey;
+    background: lightgrey;
 }
 /* ---NAVIGATION BAR STYLING--- */
 .bar-white
@@ -40,4 +41,22 @@ body,h1,h2,h3,h4,h5,h6
 .bar-item2:hover
 {
     color: red;
+}
+
+/* ---- HEADER---- */
+.heroku
+{
+    display: contents;
+    content: none;
+    max-width: 1500px;
+}
+.w3-display-middle
+{
+    width: 65%;
+}
+
+/* --Tabs -- */
+.w3-row-padding
+{
+    margin: 0 -16px;
 }
