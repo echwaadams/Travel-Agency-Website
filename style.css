@@ -1,1 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,h1,h2,h3,h4,h5,h6
+{
+    font-family: "Raleway",Arial, Helvetica, sans-serif;
+}
+.bdy
+{
+    color: lightgrey;
+}
+/* ---NAVIGATION BAR STYLING--- */
+.bar-white
+{
+    color: white;
+    border-bottom: none;
+    font-size: large;
+    font-weight: 700;
+}
+.bar-item
+{
+    color: red;
+    border: 2px solid red;
+}
+ a:hover 
+{
+    color: red;
+}
+.bar-item2
+{
+    color: grey;
+    position: relative;
+    left: 1100px;
+}
+.bar-item2:hover
+{
+    color: red;
+}
